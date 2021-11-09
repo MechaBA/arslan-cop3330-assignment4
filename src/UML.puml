@@ -1,0 +1,17 @@
+@startuml
+
+class Main(group)
+{
+    log (Input)
+    + Main
+}
+
+class list(group)
+{
+    + assign
+    App (Set Variables)
+    list (Implement Variables)
+    obj (File)
+}
+
+@enduml
